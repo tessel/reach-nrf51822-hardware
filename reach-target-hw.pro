@@ -1,4 +1,4 @@
-update=Tue 03 Feb 2015 11:06:37 AM PST
+update=Tue 03 Feb 2015 11:11:02 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../tm-kicad-library;../kicad-library
@@ -58,5 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/technical/github/tm-kicad-library/tm-kicad-lib
-[general]
-version=1
+LibName32=library/nordicsemi
