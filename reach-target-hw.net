@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/technical/github/reach-target-hw/reach-target-hw.sch)
-    (date "Fri 06 Feb 2015 02:48:09 PM PST")
+    (date "Fri 06 Feb 2015 03:34:12 PM PST")
     (tool "Eeschema 0.201502061101+5406~21~ubuntu14.04.1-product"))
   (components
     (comp (ref U1)
@@ -130,12 +130,12 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54D27149))
     (comp (ref R102)
-      (value R)
+      (value "100kR 1%")
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 54D28F62))
     (comp (ref R101)
-      (value R)
+      (value "619kR 1%")
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 54D290EC))
