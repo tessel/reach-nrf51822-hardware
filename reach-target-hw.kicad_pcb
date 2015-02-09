@@ -2,7 +2,7 @@
 
   (general
     (links 152)
-    (no_connects 135)
+    (no_connects 146)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
@@ -39,7 +39,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -70,7 +70,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFCFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -777,7 +777,7 @@
   )
 
   (module !Parts:SMD-0603 (layer F.Cu) (tedit 54D12F6F) (tstamp 54D90FD6)
-    (at 0 0)
+    (at 8.89 10.16)
     (path /54D12946)
     (attr smd)
     (fp_text reference C17 (at 0 -1.143) (layer F.SilkS)
@@ -802,7 +802,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D90FE1)
-    (at 0 0)
+    (at -2.54 -6.35)
     (path /54D17749)
     (attr smd)
     (fp_text reference C18 (at 0 -0.6096) (layer F.SilkS)
@@ -828,7 +828,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54D90C5D) (tstamp 54D90FFD)
-    (at 0 0)
+    (at -5.08 -12.7)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /54D4376E)
@@ -868,7 +868,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54D90C5D) (tstamp 54D91019)
-    (at 0 0)
+    (at -1.27 -8.89)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /54D44434)
@@ -1344,7 +1344,7 @@
   )
 
   (module !Parts:PUZ_HALF (layer F.Cu) (tedit 54D3D748) (tstamp 54D91108)
-    (at 0 0)
+    (at 17.78 6.35)
     (path /54D6054D)
     (fp_text reference P3 (at 0.889 0.75) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.05)))
@@ -1454,7 +1454,7 @@
   )
 
   (module !Parts:PUZ (layer F.Cu) (tedit 54D3D594) (tstamp 54D9116F)
-    (at 0 0)
+    (at -12.7 7.62)
     (path /54D5E9AB)
     (fp_text reference P6 (at 0 -1.143) (layer F.SilkS) hide
       (effects (font (size 0.254 0.254) (thickness 0.0254)))
@@ -1508,7 +1508,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D9117A)
-    (at 0 0)
+    (at 3.81 -8.89)
     (path /54D290EC)
     (attr smd)
     (fp_text reference R1 (at 0 -0.6096) (layer F.SilkS)
@@ -1534,7 +1534,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D91185)
-    (at 0 0)
+    (at 1.27 -6.35)
     (path /54D28F62)
     (attr smd)
     (fp_text reference R2 (at 0 -0.6096) (layer F.SilkS)
@@ -1560,7 +1560,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D91190)
-    (at 0 0)
+    (at -6.35 -6.35)
     (path /54D43AAF)
     (attr smd)
     (fp_text reference R3 (at 0 -0.6096) (layer F.SilkS)
@@ -1586,7 +1586,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D9119B)
-    (at 0 0)
+    (at 3.81 -6.35)
     (path /54D412E6)
     (attr smd)
     (fp_text reference R4 (at 0 -0.6096) (layer F.SilkS)
@@ -1612,7 +1612,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911A6)
-    (at 0 0)
+    (at -5.08 -2.54)
     (path /54D92818)
     (attr smd)
     (fp_text reference R5 (at 0 -0.6096) (layer F.SilkS)
@@ -1638,7 +1638,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911B1)
-    (at 0 0)
+    (at 3.81 -2.54)
     (path /54D4443A)
     (attr smd)
     (fp_text reference R6 (at 0 -0.6096) (layer F.SilkS)
@@ -1664,7 +1664,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911BC)
-    (at 0 0)
+    (at 3.81 -3.81)
     (path /54D46C4C)
     (attr smd)
     (fp_text reference R7 (at 0 -0.6096) (layer F.SilkS)
@@ -1690,7 +1690,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911C7)
-    (at 0 0)
+    (at 5.08 1.27)
     (path /54D4991F)
     (attr smd)
     (fp_text reference R8 (at 0 -0.6096) (layer F.SilkS)
@@ -1716,7 +1716,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911D2)
-    (at 0 0)
+    (at -5.08 2.54)
     (path /54D496D3)
     (attr smd)
     (fp_text reference R9 (at 0 -0.6096) (layer F.SilkS)
@@ -1816,7 +1816,7 @@
   )
 
   (module tm-kicad-lib:UDFN4_1EP (layer F.Cu) (tedit 54D26EC8) (tstamp 54D9120C)
-    (at 0 0)
+    (at 2.54 3.81)
     (path /54D27149)
     (fp_text reference U2 (at -1.05 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.1)))
