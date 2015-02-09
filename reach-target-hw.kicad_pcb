@@ -2,10 +2,10 @@
 
   (general
     (links 152)
-    (no_connects 146)
+    (no_connects 145)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 53)
@@ -533,7 +533,7 @@
   )
 
   (module !Parts:ANTENNA-SMT-2.45GHz (layer F.Cu) (tedit 543C8054) (tstamp 54D90F75)
-    (at 11.43 -22.86)
+    (at 143.51 82.55)
     (path /54D17976)
     (fp_text reference AE1 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -725,7 +725,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D90FC1)
-    (at 17.78 -17.78)
+    (at 149.86 87.63)
     (path /54D1735D)
     (attr smd)
     (fp_text reference C15 (at 0 -0.6096) (layer F.SilkS)
@@ -751,7 +751,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D90FCC)
-    (at -13.97 12.7)
+    (at 118.11 118.11)
     (path /54D15945)
     (attr smd)
     (fp_text reference C16 (at 0 -0.6096) (layer F.SilkS)
@@ -777,7 +777,7 @@
   )
 
   (module !Parts:SMD-0603 (layer F.Cu) (tedit 54D12F6F) (tstamp 54D90FD6)
-    (at 8.89 10.16)
+    (at 140.97 115.57)
     (path /54D12946)
     (attr smd)
     (fp_text reference C17 (at 0 -1.143) (layer F.SilkS)
@@ -802,7 +802,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D90FE1)
-    (at -2.54 -6.35)
+    (at 129.54 99.06)
     (path /54D17749)
     (attr smd)
     (fp_text reference C18 (at 0 -0.6096) (layer F.SilkS)
@@ -828,7 +828,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54D90C5D) (tstamp 54D90FFD)
-    (at -5.08 -12.7)
+    (at 127 92.71)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /54D4376E)
@@ -868,7 +868,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54D90C5D) (tstamp 54D91019)
-    (at -1.27 -8.89)
+    (at 130.81 96.52)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /54D44434)
@@ -908,7 +908,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54D90C5C) (tstamp 54D91025)
-    (at -22.86 6.35)
+    (at 109.22 111.76)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54D53B8E)
@@ -936,7 +936,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54D90C5C) (tstamp 54D91031)
-    (at -15.24 -6.35)
+    (at 116.84 99.06)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54D53ED5)
@@ -964,7 +964,7 @@
   )
 
   (module !Parts:CONN_02x05_0.05in (layer F.Cu) (tedit 5463CAA5) (tstamp 54D91040)
-    (at -2.54 -25.4)
+    (at 129.54 80.01)
     (path /54D463EC)
     (fp_text reference J3 (at 0 -1.778) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -996,7 +996,7 @@
   )
 
   (module !Parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 54D9105A)
-    (at -10.16 30.48)
+    (at 121.92 135.89)
     (path /54D56DF7)
     (fp_text reference J4 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -1059,7 +1059,7 @@
   )
 
   (module !Parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 54D91074)
-    (at 15.24 22.86)
+    (at 147.32 128.27)
     (path /54D5AC64)
     (fp_text reference J5 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -1122,7 +1122,7 @@
   )
 
   (module !Parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 54D9108E)
-    (at 11.43 43.18)
+    (at 143.51 148.59)
     (path /54D5E029)
     (fp_text reference J6 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -1236,7 +1236,7 @@
   )
 
   (module !Parts:PUZ (layer F.Cu) (tedit 54D3D594) (tstamp 54D910CB)
-    (at 3.81 -13.97)
+    (at 135.89 91.44)
     (path /54D5E73B)
     (fp_text reference P1 (at 0 -1.143) (layer F.SilkS) hide
       (effects (font (size 0.254 0.254) (thickness 0.0254)))
@@ -1290,7 +1290,7 @@
   )
 
   (module !Parts:PUZ (layer F.Cu) (tedit 54D3D594) (tstamp 54D910F5)
-    (at -22.86 -2.54)
+    (at 109.22 102.87)
     (path /54D5E9A5)
     (fp_text reference P2 (at 0 -1.143) (layer F.SilkS) hide
       (effects (font (size 0.254 0.254) (thickness 0.0254)))
@@ -1344,7 +1344,7 @@
   )
 
   (module !Parts:PUZ_HALF (layer F.Cu) (tedit 54D3D748) (tstamp 54D91108)
-    (at 17.78 6.35)
+    (at 149.86 111.76)
     (path /54D6054D)
     (fp_text reference P3 (at 0.889 0.75) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.05)))
@@ -1372,7 +1372,7 @@
   )
 
   (module !Parts:PUZ_HALF (layer F.Cu) (tedit 54D3D748) (tstamp 54D9111B)
-    (at -3.81 10.16)
+    (at 128.27 115.57)
     (path /54D603E3)
     (fp_text reference P4 (at 0.889 0.75) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.05)))
@@ -1400,7 +1400,7 @@
   )
 
   (module !Parts:PUZ (layer F.Cu) (tedit 54D3D594) (tstamp 54D91145)
-    (at 17.78 1.27)
+    (at 149.86 106.68)
     (path /54D5E84D)
     (fp_text reference P5 (at 0 -1.143) (layer F.SilkS) hide
       (effects (font (size 0.254 0.254) (thickness 0.0254)))
@@ -1454,7 +1454,7 @@
   )
 
   (module !Parts:PUZ (layer F.Cu) (tedit 54D3D594) (tstamp 54D9116F)
-    (at -12.7 7.62)
+    (at 119.38 113.03)
     (path /54D5E9AB)
     (fp_text reference P6 (at 0 -1.143) (layer F.SilkS) hide
       (effects (font (size 0.254 0.254) (thickness 0.0254)))
@@ -1508,7 +1508,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D9117A)
-    (at 3.81 -8.89)
+    (at 135.89 96.52)
     (path /54D290EC)
     (attr smd)
     (fp_text reference R1 (at 0 -0.6096) (layer F.SilkS)
@@ -1534,7 +1534,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D91185)
-    (at 1.27 -6.35)
+    (at 133.35 99.06)
     (path /54D28F62)
     (attr smd)
     (fp_text reference R2 (at 0 -0.6096) (layer F.SilkS)
@@ -1560,7 +1560,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D91190)
-    (at -6.35 -6.35)
+    (at 125.73 99.06)
     (path /54D43AAF)
     (attr smd)
     (fp_text reference R3 (at 0 -0.6096) (layer F.SilkS)
@@ -1586,7 +1586,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D9119B)
-    (at 3.81 -6.35)
+    (at 135.89 99.06)
     (path /54D412E6)
     (attr smd)
     (fp_text reference R4 (at 0 -0.6096) (layer F.SilkS)
@@ -1612,7 +1612,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911A6)
-    (at -5.08 -2.54)
+    (at 127 102.87)
     (path /54D92818)
     (attr smd)
     (fp_text reference R5 (at 0 -0.6096) (layer F.SilkS)
@@ -1638,7 +1638,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911B1)
-    (at 3.81 -2.54)
+    (at 135.89 102.87)
     (path /54D4443A)
     (attr smd)
     (fp_text reference R6 (at 0 -0.6096) (layer F.SilkS)
@@ -1664,7 +1664,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911BC)
-    (at 3.81 -3.81)
+    (at 135.89 101.6)
     (path /54D46C4C)
     (attr smd)
     (fp_text reference R7 (at 0 -0.6096) (layer F.SilkS)
@@ -1690,7 +1690,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911C7)
-    (at 5.08 1.27)
+    (at 137.16 106.68)
     (path /54D4991F)
     (attr smd)
     (fp_text reference R8 (at 0 -0.6096) (layer F.SilkS)
@@ -1716,7 +1716,7 @@
   )
 
   (module !Parts:SMD-0402 (layer F.Cu) (tedit 54C05CDC) (tstamp 54D911D2)
-    (at -5.08 2.54)
+    (at 127 107.95)
     (path /54D496D3)
     (attr smd)
     (fp_text reference R9 (at 0 -0.6096) (layer F.SilkS)
@@ -1742,7 +1742,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54D90C5C) (tstamp 54D911DE)
-    (at 19.05 -10.16)
+    (at 151.13 95.25)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54D40F93)
@@ -1816,7 +1816,7 @@
   )
 
   (module tm-kicad-lib:UDFN4_1EP (layer F.Cu) (tedit 54D26EC8) (tstamp 54D9120C)
-    (at 2.54 3.81)
+    (at 134.62 109.22)
     (path /54D27149)
     (fp_text reference U2 (at -1.05 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.1)))
@@ -1860,7 +1860,7 @@
   )
 
   (module tm-kicad-lib:QFN-48-1EP (layer F.Cu) (tedit 5499D935) (tstamp 54D91249)
-    (at -13.97 -20.32)
+    (at 118.11 85.09)
     (path /54D11D58)
     (attr smd)
     (fp_text reference U3 (at -0.01016 1.29032) (layer F.SilkS)
@@ -1981,5 +1981,14 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 88.9 127) (end 50.8 127) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 88.9 104.14) (end 88.9 127) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 50.8 104.14) (end 88.9 104.14) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 50.8 127) (end 50.8 104.14) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 0 127) (end 50.8 127) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 0 0) (end 0 127) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 0 0) (end -2.54 0) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 0 0) (end 0 -2.54) (angle 90) (layer Dwgs.User) (width 0.2))
 
 )
