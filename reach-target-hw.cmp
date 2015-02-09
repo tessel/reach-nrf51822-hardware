@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502091101+5410~21~ubuntu14.04.1-product   date = Mon 09 Feb 2015 11:35:00 AM PST
+Cmp-Mod V01 Created by Cvpcb 0.201502091101+5410~21~ubuntu14.04.1-product   date = Mon 09 Feb 2015 12:06:13 PM PST
 
 BeginCmp
 TimeStamp = /54D17976;
@@ -179,14 +179,14 @@ BeginCmp
 TimeStamp = /54D5AC64;
 Reference = J5;
 ValeurCmp = MODULE_HEADER;
-IdModule  = !Parts:MODULE_HEADER_TESSEL;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D5E029;
 Reference = J6;
 ValeurCmp = MODULE_HEADER;
-IdModule  = !Parts:MODULE_HEADER_TESSEL;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
 EndCmp
 
 BeginCmp
@@ -206,14 +206,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54D11F7B;
 Reference = L3;
-ValeurCmp = 10uH 20% 50mA;
+ValeurCmp = LBMF1608T100K;
 IdModule  = !Parts:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D128EE;
 Reference = L4;
-ValeurCmp = 15nH 10% HF;
+ValeurCmp = CW100505-15NJ;
 IdModule  = !Parts:SMD-0402;
 EndCmp
 
