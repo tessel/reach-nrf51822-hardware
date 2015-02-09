@@ -1,0 +1,374 @@
+Cmp-Mod V01 Created by Cvpcb 0.201502091101+5410~21~ubuntu14.04.1-product   date = Mon 09 Feb 2015 11:25:29 AM PST
+
+BeginCmp
+TimeStamp = /54D17976;
+Reference = AE101;
+ValeurCmp = ANTENNA;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D127BD;
+Reference = C1;
+ValeurCmp = 8pF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D14813;
+Reference = C2;
+ValeurCmp = 8pF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D17038;
+Reference = C3;
+ValeurCmp = 2.2nF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D1735D;
+Reference = C4;
+ValeurCmp = 1pF +/-0.1pF NPO;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D1725C;
+Reference = C5;
+ValeurCmp = 2.2pF +/-0.1pF NPO;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D17749;
+Reference = C6;
+ValeurCmp = 1.5pF +/-0.1pF NPO;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D11E9C;
+Reference = C7;
+ValeurCmp = 4.7uF 10% X5R;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D157F7;
+Reference = C8;
+ValeurCmp = 100nF 10% X7R;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D15945;
+Reference = C9;
+ValeurCmp = 1nF 10% X7R;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D156F3;
+Reference = C10;
+ValeurCmp = 47nF 10% X7R;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12509;
+Reference = C11;
+ValeurCmp = 100nF 10% X7R;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12946;
+Reference = C12;
+ValeurCmp = 1.0uF 10% X7R;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D14E52;
+Reference = C13;
+ValeurCmp = 12pF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D14E66;
+Reference = C14;
+ValeurCmp = 12pF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D2A303;
+Reference = C101;
+ValeurCmp = 4.7uF;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D2B8BD;
+Reference = C102;
+ValeurCmp = 100nF;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D418A9;
+Reference = C103;
+ValeurCmp = 1nF;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D2A589;
+Reference = C104;
+ValeurCmp = 4.7uF;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4376E;
+Reference = D101;
+ValeurCmp = BLUE;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D44434;
+Reference = D102;
+ValeurCmp = RED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D53B8E;
+Reference = J101;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D53ED5;
+Reference = J102;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D463EC;
+Reference = J103;
+ValeurCmp = CONN_02X05;
+IdModule  = !Parts:CONN_02x05_0.05in;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D56DF7;
+Reference = J104;
+ValeurCmp = MODULE_HEADER;
+IdModule  = !Parts:MODULE_HEADER_TESSEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5AC64;
+Reference = J105;
+ValeurCmp = MODULE_HEADER;
+IdModule  = !Parts:MODULE_HEADER_TESSEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5E029;
+Reference = J106;
+ValeurCmp = MODULE_HEADER;
+IdModule  = !Parts:MODULE_HEADER_TESSEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D15D3E;
+Reference = L1;
+ValeurCmp = 4.7nH 5% HF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D15E12;
+Reference = L2;
+ValeurCmp = 10nH 5% HF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D17611;
+Reference = L3;
+ValeurCmp = 3.3nH 5% HF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D11F7B;
+Reference = L4;
+ValeurCmp = 10uH 20% 50mA;
+IdModule  = !Parts:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D128EE;
+Reference = L5;
+ValeurCmp = 15nH 10% HF;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5E73B;
+Reference = P101;
+ValeurCmp = CONN_01X05;
+IdModule  = !Parts:PUZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5E9A5;
+Reference = P102;
+ValeurCmp = CONN_01X05;
+IdModule  = !Parts:PUZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D6054D;
+Reference = P103;
+ValeurCmp = CONN_01X02;
+IdModule  = !Parts:PUZ_HALF;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D603E3;
+Reference = P104;
+ValeurCmp = CONN_01X02;
+IdModule  = !Parts:PUZ_HALF;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5E84D;
+Reference = P105;
+ValeurCmp = CONN_01X05;
+IdModule  = !Parts:PUZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D5E9AB;
+Reference = P106;
+ValeurCmp = CONN_01X05;
+IdModule  = !Parts:PUZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D290EC;
+Reference = R101;
+ValeurCmp = 619kR 1%;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D28F62;
+Reference = R102;
+ValeurCmp = 100kR 1%;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D43AAF;
+Reference = R103;
+ValeurCmp = 1kR;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D412E6;
+Reference = R104;
+ValeurCmp = 100kR;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4443A;
+Reference = R105;
+ValeurCmp = 1kR;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D46C4C;
+Reference = R106;
+ValeurCmp = 0R DNP;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4991F;
+Reference = R107;
+ValeurCmp = 10kR DNP;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D496D3;
+Reference = R108;
+ValeurCmp = 10kR DNP;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D92818;
+Reference = R109;
+ValeurCmp = 1kR;
+IdModule  = !Parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D40F93;
+Reference = SW101;
+ValeurCmp = SW_PUSH;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D11D58;
+Reference = U1;
+ValeurCmp = nRF51822-QF;
+IdModule  = tm-kicad-lib:QFN-48-1EP;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4022B;
+Reference = U101;
+ValeurCmp = CAT24C02YI-GT3A;
+IdModule  = Housings_SSOP:TSSOP-8_3x3mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D27149;
+Reference = U102;
+ValeurCmp = NCP103AMX330;
+IdModule  = tm-kicad-lib:UDFN4_1EP;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12781;
+Reference = X1;
+ValeurCmp = CX2520DB16000D0GEJCC;
+IdModule  = !Parts:CX2520DB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D14E4C;
+Reference = X2;
+ValeurCmp = SC32S-12.5PF20PPM;
+IdModule  = !Parts:FC-135;
+EndCmp
+
+EndListe
