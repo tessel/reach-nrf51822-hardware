@@ -848,7 +848,7 @@ F 3 "" H 7200 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9400 9400 2    60   ~ 0
-SWDIO/~RESET
+SWDIO-~RESET
 $Comp
 L R R7
 U 1 1 54D46C4C
