@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/technical/github/reach-target-hw/reach-target-hw.sch)
-    (date "Mon 09 Feb 2015 02:13:38 PM PST")
-    (tool "Eeschema 0.201502091101+5410~21~ubuntu14.04.1-product"))
+    (date "Tue 10 Feb 2015 11:33:15 AM PST")
+    (tool "Eeschema 0.201502101101+5412~21~ubuntu14.04.1-product"))
   (components
     (comp (ref U3)
       (value nRF51822-QF)
@@ -184,8 +184,9 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54D4022B))
     (comp (ref SW1)
-      (value SW_PUSH)
-      (footprint Pin_Headers:Pin_Header_Straight_1x02)
+      (value TL1015AF160QG)
+      (footprint !Parts:TL1015AF160QG)
+      (datasheet http://spec_sheets.e-switch.com/specs/P420000.pdf)
       (libsource (lib device) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 54D40F93))
@@ -352,42 +353,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54D975E9)))
   (libparts
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib conn) (part CONN_01X05)
-      (footprints
-        (fp Pin_Header_Straight_1X05)
-        (fp Pin_Header_Angled_1X05)
-        (fp Socket_Strip_Straight_1X05)
-        (fp Socket_Strip_Angled_1X05))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X05))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))))
     (libpart (lib tm-kicad-lib) (part ANTENNA)
       (fields
         (field (name Reference) AE)
@@ -395,6 +360,26 @@
       (pins
         (pin (num 1) (name ~) (type BiDi))
         (pin (num 2) (name ~) (type BiDi))))
+    (libpart (lib conn) (part CONN_02X05)
+      (footprints
+        (fp Pin_Header_Straight_2X05)
+        (fp Pin_Header_Angled_2X05)
+        (fp Socket_Strip_Straight_2X05)
+        (fp Socket_Strip_Angled_2X05))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_02X05))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))))
     (libpart (lib tm-kicad-lib) (part CAT24Cxx)
       (description "I2C EEPROM, 2KB")
       (docs http://www.onsemi.com/pub_link/Collateral/CAT24C01-D.PDF)
@@ -510,6 +495,43 @@
         (pin (num 47) (name P0.28) (type BiDi))
         (pin (num 48) (name P0.29) (type BiDi))
         (pin (num 49) (name PAD) (type power_in))))
+    (libpart (lib device) (part SW_PUSH)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_01X05)
+      (footprints
+        (fp Pin_Header_Straight_1X05)
+        (fp Pin_Header_Angled_1X05)
+        (fp Socket_Strip_Straight_1X05)
+        (fp Socket_Strip_Angled_1X05))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X05))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))))
     (libpart (lib conn) (part CONN_01X02)
       (footprints
         (fp Pin_Header_Straight_1X02)
@@ -522,6 +544,20 @@
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))))
+    (libpart (lib device) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib device) (part LED)
       (footprints
         (fp LED-3MM)
@@ -537,41 +573,6 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
-    (libpart (lib conn) (part CONN_02X05)
-      (footprints
-        (fp Pin_Header_Straight_2X05)
-        (fp Pin_Header_Angled_2X05)
-        (fp Socket_Strip_Straight_2X05)
-        (fp Socket_Strip_Angled_2X05))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_02X05))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))
-        (pin (num 10) (name P10) (type passive))))
-    (libpart (lib device) (part CRYSTAL)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) CRYSTAL))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part SW_PUSH)
-      (description "Push Button")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SW_PUSH))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -585,12 +586,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical tm-kicad-lib)
       (uri /home/technical/github/tm-kicad-library/tm-kicad-lib.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name /VDD_PA)
       (node (ref C12) (pin 1))
