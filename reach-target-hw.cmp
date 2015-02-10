@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502101101+5412~21~ubuntu14.04.1-product   date = Tue 10 Feb 2015 11:35:05 AM PST
+Cmp-Mod V01 Created by Cvpcb 0.201502101101+5412~21~ubuntu14.04.1-product   date = Tue 10 Feb 2015 12:03:32 PM PST
 
 BeginCmp
 TimeStamp = /54D17976;
@@ -11,126 +11,126 @@ BeginCmp
 TimeStamp = /54D2A303;
 Reference = C1;
 ValeurCmp = 4.7uF;
-IdModule  = !Parts:SMD-0603;
+IdModule  = !Parts:SMD-0603-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D2B8BD;
 Reference = C2;
 ValeurCmp = 100nF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D418A9;
 Reference = C3;
 ValeurCmp = 1nF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D14813;
 Reference = C4;
 ValeurCmp = 8pF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D14E66;
 Reference = C5;
 ValeurCmp = 12pF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D2A589;
 Reference = C6;
 ValeurCmp = 4.7uF;
-IdModule  = !Parts:SMD-0603;
+IdModule  = !Parts:SMD-0603-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D12509;
 Reference = C7;
 ValeurCmp = 100nF 10% X7R;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D127BD;
 Reference = C8;
 ValeurCmp = 8pF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D14E52;
 Reference = C9;
 ValeurCmp = 12pF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D11E9C;
 Reference = C10;
 ValeurCmp = 4.7uF 10% X5R;
-IdModule  = !Parts:SMD-0603;
+IdModule  = !Parts:SMD-0603-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D156F3;
 Reference = C11;
 ValeurCmp = 47nF 10% X7R;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D17038;
 Reference = C12;
 ValeurCmp = 2.2nF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D157F7;
 Reference = C13;
 ValeurCmp = 100nF 10% X7R;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1725C;
 Reference = C14;
 ValeurCmp = 2.2pF +/-0.1pF NPO;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1735D;
 Reference = C15;
 ValeurCmp = 1pF +/-0.1pF NPO;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D15945;
 Reference = C16;
 ValeurCmp = 1nF 10% X7R;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D12946;
 Reference = C17;
 ValeurCmp = 1.0uF 10% X7R;
-IdModule  = !Parts:SMD-0603;
+IdModule  = !Parts:SMD-0603-C;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D17749;
 Reference = C18;
 ValeurCmp = 1.5pF +/-0.1pF NPO;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-C;
 EndCmp
 
 BeginCmp
@@ -193,35 +193,35 @@ BeginCmp
 TimeStamp = /54D15E12;
 Reference = L1;
 ValeurCmp = 10nH 5% HF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D15D3E;
 Reference = L2;
 ValeurCmp = 4.7nH 5% HF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D11F7B;
 Reference = L3;
 ValeurCmp = LBMF1608T100K;
-IdModule  = !Parts:SMD-0603;
+IdModule  = !Parts:SMD-0603-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D128EE;
 Reference = L4;
 ValeurCmp = CW100505-15NJ;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D17611;
 Reference = L5;
 ValeurCmp = 3.3nH 5% HF;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
@@ -270,91 +270,91 @@ BeginCmp
 TimeStamp = /54D290EC;
 Reference = R1;
 ValeurCmp = 619kR 1%;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D28F62;
 Reference = R2;
 ValeurCmp = 100kR 1%;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D43AAF;
 Reference = R3;
 ValeurCmp = 1kR;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D412E6;
 Reference = R4;
 ValeurCmp = 100kR;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D92818;
 Reference = R5;
 ValeurCmp = 1kR;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D4443A;
 Reference = R6;
 ValeurCmp = 1kR;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D46C4C;
 Reference = R7;
 ValeurCmp = 0R DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D4991F;
 Reference = R8;
 ValeurCmp = 10kR DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D496D3;
 Reference = R9;
 ValeurCmp = 10kR DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D93DBC;
 Reference = R10;
 ValeurCmp = 0R DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D93EB0;
 Reference = R11;
 ValeurCmp = 0R DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D975E9;
 Reference = R12;
 ValeurCmp = 10kR DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D9731D;
 Reference = R13;
 ValeurCmp = 10kR DNP;
-IdModule  = !Parts:SMD-0402;
+IdModule  = !Parts:SMD-0402-R;
 EndCmp
 
 BeginCmp
