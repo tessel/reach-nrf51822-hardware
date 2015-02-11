@@ -1233,14 +1233,6 @@ Text Label 14200 6800 0    60   ~ 0
 MOSI
 Text Label 14200 6600 0    60   ~ 0
 SCK
-Text Label 14200 8400 0    60   ~ 0
-G4
-Text Label 14200 8500 0    60   ~ 0
-G5
-Text Label 14200 8600 0    60   ~ 0
-G6
-Text Label 14200 7400 0    60   ~ 0
-G7
 Text Notes 1050 3700 0    60   ~ 0
 TURNS THE REGULATOR \nOFF AT (OR BEFORE)\nVBATT = 3V. CAN BE\nOVERRIDEN BY GPIO\nWRITE. SEE LTSPICE\nSCHEMATIC:\nvreg-enable-sim.asc\n\nOFF @ 3V: 619kR\nON @ 3V: 226kR
 Text Notes 13000 7450 0    60   ~ 0
@@ -1944,4 +1936,12 @@ F 3 "" H 15700 8700 60  0000 C CNN
 $EndComp
 Text Label 14200 3100 0    60   ~ 0
 P0.13
+Text Label 14200 8400 0    60   ~ 0
+P0.13
+Text Label 14200 8500 0    60   ~ 0
+P0.14
+Text Label 14200 8600 0    60   ~ 0
+P0.15
+Text Label 14200 7400 0    60   ~ 0
+P0.16
 $EndSCHEMATC
