@@ -1,4 +1,4 @@
-update=Tue 10 Feb 2015 06:31:51 PM PST
+update=Wed 11 Feb 2015 10:34:24 AM PST
 version=1
 last_client=kicad
 [cvpcb]
