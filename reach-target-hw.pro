@@ -1,4 +1,4 @@
-update=Tue 10 Feb 2015 04:02:04 PM PST
+update=Tue 10 Feb 2015 06:31:51 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,8 +40,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/technical/github/tm-kicad-library/tm-kicad-lib
 LibName32=library/nordicsemi
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -62,3 +60,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[general]
+version=1
