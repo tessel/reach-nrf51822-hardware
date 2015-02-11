@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502101101+5412~21~ubuntu14.04.1-product   date = Tue 10 Feb 2015 12:07:55 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201502101101+5412~21~ubuntu14.04.1-product   date = Tue 10 Feb 2015 01:57:18 PM PST
 
 BeginCmp
 TimeStamp = /54D17976;
@@ -145,6 +145,41 @@ TimeStamp = /54D44434;
 Reference = D2;
 ValeurCmp = RED;
 IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DA9134;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = !Parts:NPTH_0.045in;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DA9A27;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = !Parts:NPTH_0.055in;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DA9A96;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = !Parts:NPTH_0.045in;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DA9BF2;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = !Parts:NPTH_0.055in;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DA9BF8;
+Reference = H5;
+ValeurCmp = HOLE;
+IdModule  = !Parts:NPTH_0.045in;
 EndCmp
 
 BeginCmp
@@ -375,7 +410,7 @@ BeginCmp
 TimeStamp = /54D27149;
 Reference = U2;
 ValeurCmp = NCP103AMX330;
-IdModule  = tm-kicad-lib:UDFN4_1EP;
+IdModule  = !Parts:UDFN4_1EP;
 EndCmp
 
 BeginCmp

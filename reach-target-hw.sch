@@ -484,7 +484,7 @@ U 1 1 54D27149
 P 4500 2600
 F 0 "U2" H 4100 2950 60  0000 C CNN
 F 1 "NCP103AMX330" H 4500 2650 60  0000 C CNN
-F 2 "tm-kicad-lib:UDFN4_1EP" H 4500 2600 60  0001 C CNN
+F 2 "!Parts:UDFN4_1EP" H 4500 2600 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NCP103-D.PDF" H 4500 2600 60  0001 C CNN
 	1    4500 2600
 	1    0    0    -1  
@@ -997,37 +997,37 @@ MOSI
 Text Label 6800 3500 0    60   ~ 0
 SCK
 Text Label 6800 4800 0    60   ~ 0
-G4
+P0.13
 Text Label 6800 4900 0    60   ~ 0
-G5
+P0.14
 Text Label 6800 5000 0    60   ~ 0
-G6
+P0.15
 Text Label 10600 3400 2    60   ~ 0
-G7
+P0.16
 Text Label 10600 3500 2    60   ~ 0
-G8
+P0.17
 Text Label 10600 3600 2    60   ~ 0
-G9
+P0.18
 Text Label 10600 3700 2    60   ~ 0
-G10
+P0.19
 Text Label 10600 3900 2    60   ~ 0
-G11
+P0.20
 Text Label 10600 4000 2    60   ~ 0
-G12
+P0.21
 Text Label 10600 4100 2    60   ~ 0
-G13
+P0.22
 Text Label 10600 4200 2    60   ~ 0
-G14
+P0.23
 Text Label 10600 4400 2    60   ~ 0
-G15
+P0.24
 Text Label 10600 4500 2    60   ~ 0
-G16
+P0.25
 Text Label 10600 4700 2    60   ~ 0
-G17
+P0.28
 Text Label 10600 4800 2    60   ~ 0
-G18
+P0.29
 Text Label 10600 4900 2    60   ~ 0
-G19
+P0.30
 Text Label 14200 2200 0    60   ~ 0
 G3
 Text Label 14200 2100 0    60   ~ 0
@@ -1066,38 +1066,36 @@ F 3 "" H 14600 3900 60  0000 C CNN
 	1    14600 3900
 	1    0    0    -1  
 $EndComp
-Text Label 14200 3100 0    60   ~ 0
-G4
 Text Label 14200 3200 0    60   ~ 0
-G5
+P0.14
 Text Label 14200 3300 0    60   ~ 0
-G6
+P0.15
 Text Label 14200 3400 0    60   ~ 0
-G7
+P0.16
 Text Label 14200 3500 0    60   ~ 0
-G8
+P0.17
 Text Label 14200 3600 0    60   ~ 0
-G9
+P0.18
 Text Label 14200 3700 0    60   ~ 0
-G10
+P0.19
 Text Label 14200 3800 0    60   ~ 0
-G11
+P0.20
 Text Label 14200 4700 0    60   ~ 0
-G12
+P0.21
 Text Label 14200 4800 0    60   ~ 0
-G13
+P0.22
 Text Label 14200 4900 0    60   ~ 0
-G14
+P0.23
 Text Label 14200 5000 0    60   ~ 0
-G15
+P0.24
 Text Label 14200 5100 0    60   ~ 0
-G16
+P0.25
 Text Label 14200 5200 0    60   ~ 0
-G17
+P0.28
 Text Label 14200 5300 0    60   ~ 0
-G18
+P0.29
 Text Label 14200 5400 0    60   ~ 0
-G19
+P0.30
 $Comp
 L MODULE_HEADER J6
 U 1 1 54D5E029
@@ -1889,4 +1887,61 @@ Wire Wire Line
 	4200 4500 4200 4400
 Connection ~ 4500 5100
 Connection ~ 4200 5300
+$Comp
+L HOLE H1
+U 1 1 54DA9134
+P 15700 6250
+F 0 "H1" H 15700 6400 60  0000 C CNN
+F 1 "HOLE" H 15700 6100 60  0000 C CNN
+F 2 "!Parts:NPTH_0.045in" H 15700 6250 60  0001 C CNN
+F 3 "" H 15700 6250 60  0000 C CNN
+	1    15700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H2
+U 1 1 54DA9A27
+P 15700 6900
+F 0 "H2" H 15700 7050 60  0000 C CNN
+F 1 "HOLE" H 15700 6750 60  0000 C CNN
+F 2 "!Parts:NPTH_0.055in" H 15700 6900 60  0001 C CNN
+F 3 "" H 15700 6900 60  0000 C CNN
+	1    15700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H3
+U 1 1 54DA9A96
+P 15700 7500
+F 0 "H3" H 15700 7650 60  0000 C CNN
+F 1 "HOLE" H 15700 7350 60  0000 C CNN
+F 2 "!Parts:NPTH_0.045in" H 15700 7500 60  0001 C CNN
+F 3 "" H 15700 7500 60  0000 C CNN
+	1    15700 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H4
+U 1 1 54DA9BF2
+P 15700 8100
+F 0 "H4" H 15700 8250 60  0000 C CNN
+F 1 "HOLE" H 15700 7950 60  0000 C CNN
+F 2 "!Parts:NPTH_0.055in" H 15700 8100 60  0001 C CNN
+F 3 "" H 15700 8100 60  0000 C CNN
+	1    15700 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H5
+U 1 1 54DA9BF8
+P 15700 8700
+F 0 "H5" H 15700 8850 60  0000 C CNN
+F 1 "HOLE" H 15700 8550 60  0000 C CNN
+F 2 "!Parts:NPTH_0.045in" H 15700 8700 60  0001 C CNN
+F 3 "" H 15700 8700 60  0000 C CNN
+	1    15700 8700
+	1    0    0    -1  
+$EndComp
+Text Label 14200 3100 0    60   ~ 0
+P0.13
 $EndSCHEMATC
