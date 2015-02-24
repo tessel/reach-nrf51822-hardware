@@ -1,4 +1,4 @@
-update=Mon 23 Feb 2015 06:13:19 PM PST
+update=Tue 24 Feb 2015 10:21:59 AM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,8 +24,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../kicad-library;../tm-kicad-lib
@@ -62,3 +60,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/technical/github/tm-kicad-library/tm-kicad-lib
 LibName32=library/nordicsemi
+[general]
+version=1
